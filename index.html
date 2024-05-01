@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Delius&family=Grandiflora+One&family=Mali:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@400;700&family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Serif+Display&family=Lilita+One&family=Lobster&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- SOCIAL LINKS ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">fgracefab</a>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBX">
+            <h2>hello i'm </h2>
+            <h1>fatima</h1>
+            <h3>pursuer of dreams</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+        <div class="banner-pic">
+            <img src="assets/images/photoshopEdited.png" alt="banner photo">
+            <div class="banner-circle"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="content-aboutme">
+                <p>Hi there, I’m Fatima! and I’m a Multimedia Design and Development (MMDD) student at Humber College, North Campus. Being enrolled in this program is a self-fulfilled dream of my younger self ten years ago. I had a passion for arts and design way back in high school, but I didn’t have the courage to pursue it earlier because of perceived career instability in the Philippines after I graduated. Thus, making it into this program and pursuing my studies abroad is really a big leap of faith, involving a major career shift in my late twenties. Nevertheless, I am grateful to have been given this opportunity to realize my dream after a decade. Despite the lack of a solid foundation in design, I see this as an opportunity to challenge myself to learn and harness my skills.</p>
+                <br>
+                <p>At this time, I am still figuring out and exploring what could be my career niche after I graduate from my program, as my interests lean towards becoming an Illustrator, Web Designer, or Video Editor. I’m also a travel enthusiast and I love to explore new places and different cultures that help me enrich my learning experiences. While I was still in the Philippines sometime in 2023, I had the wonderful time to engage in biking activity, allowing me to explore our small town and visit nearby beach shorelines.
+                </p>
+            </div>
+            <div class="about-picture">
+                <img id="image1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="assets/images/aboutmepic1.png" height="500" width="500">
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="portfolioBx">
+                    <h2>Ice Cream Poster</h2>
+                    <img src="assets/images/portfolio-1.png" alt="Ice Cream Poster">
+                </div>
+                <div class="portfolioBx">
+                    <h2>Everyday Life Poster</h2>
+                    <img src="assets/images/portfolio-2.jpg" alt="Everyday Life Poster">
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolioBx">
+                    <h2>Student Account Portal</h2>
+                    <a href="http://fgfabillarhtml.rf.gd/" target="_blank"><img src="assets/images/portfolio-3.png" alt="Student Account Portal"></a>
+                </div>
+                <div class="portfolioBx">
+                    <h2>Restaurant Website</h2>
+                    <a href="http://fatimagrace.lovestoblog.com/" target="_blank"><img src="assets/images/portfolio-4.png" alt="Restaurant Website"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+        </div>
+        <div class="content">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <div class="contactinfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Addresss</h3>
+                            <p>205 Humber College Blvd,<br>Toronto, Ontario, Canada<br>M9W 5L7</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+639169766844</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>fgracefab@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2024. All Rights Reserved.</p>
+    </div>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>

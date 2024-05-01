@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* HEADING */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header.sticky{
+    background: #F8F8F8;
+    padding: 20px 100px;
+}
+
+header .logo{
+    color: #E9CC19;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header.sticky .logo{
+    color: #E9CC19;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    color: #083032;
+    text-decoration: none;
+}
+
+.social-links a{
+    color: #1D1F4D;
+    background: white;
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+}
+
+header.sticky ul li a{
+    color: #56A5A2;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #56A5A2;
+}
+
+.heading h2{
+    font-weight: bold;
+    font-size: 57px;
+    font-family: 'Pacifico';
+}
+
+section{
+    padding: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BANNER */
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background-color: #F9F6E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-circle{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-color: #f9e981;
+    border-radius: 50%; 
+    z-index: 1;
+}
+
+.banner img{
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    border-radius: 50%;
+    top: 48%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 570px;
+    height: 610px;
+}
+
+.banner h2{
+    font-size: 80px;
+    color: #4F6F5A;
+    font-weight: 500px;
+    font-family: 'DM Serif Display', serif;
+    padding-left: 50px;
+}
+
+.banner h1{
+    font-size: 130px;
+    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
+    padding-left: 50px;
+    line-height: 130px;
+}
+
+.banner h3{
+    font-size: 50px;
+    color:  #4F6F5A;
+    font-weight: 500px;
+    font-family: 'Clicker Script', cursive;
+    padding-left: 50px;
+    
+}
+
+.btn{
+    position: relative;
+    background: #56A5A2;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+/* ABOUT */
+
+.about{
+    background: #E5f2F9;
+}
+
+.content-aboutme{
+    padding-right: 30px;
+}
+
+.content-aboutme p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Mali';
+    font-weight: normal;
+    color: black;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    background: #F9ECE5;
+    padding-bottom: 30px;
+}
+
+.portfolio .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio .content .row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.portfolio .content .portfolioBx {
+    text-align: center;
+}
+
+.portfolio .content .portfolioBx img {
+    width: 480px;
+    height: 605px;
+    border-radius: 20px;
+}
+
+.portfolio .content .portfolioBx h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    font-family: 'Mali';
+    font-weight: normal;
+    color: black;
+
+}
+
+
+/* CONTACT */
+
+.contact{
+    background: #F2F9E5;
+}
+
+.formBx{
+    min-width: 60%;
+}
+
+.formBx form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formBx form h3,
+.contact-info h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Mali';
+    padding-bottom: 5px;
+}
+
+.formBx form input,
+.formBx form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    resize: none;
+    font-family: 'Alfa Slab';
+}
+
+.formBx form textarea{
+    min-height: 200px;
+}
+
+.formBx form input::placeholder,
+.formBx form textarea::placeholder{
+    color: black;
+}
+
+.formBx form input[type="submit"] {
+    max-width: 100px;
+    background: #56A5A2;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab';
+    border-radius: 6px;
+    color: white;
+}
+
+.contact-info{
+    min-width: 40%;
+}
+
+.contactinfoBx{
+    position: relative;
+}
+
+.contactinfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactinfoBx .box .icon{
+    min-width: 40px;
+    padding-top: 4px;
+    color:  #56A5A2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.contactinfoBx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: normal;
+    font-family: 'Alfa Slab';
+
+}
+
+.contactinfoBx .box .text h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+
+}
+
+.copyright{
+    background: #F2F9E5;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Alfa Slab';
+}
+
+
